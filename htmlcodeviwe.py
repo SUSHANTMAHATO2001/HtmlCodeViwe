@@ -8,7 +8,7 @@ try:
 except ImportError:
         os.system('python2 -m pip install mechanize')
 
-
+os.system('clear')
 import mechanize
 
 ##
