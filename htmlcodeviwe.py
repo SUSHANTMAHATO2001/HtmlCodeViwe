@@ -1,6 +1,14 @@
 import os
 import time
 import sys
+
+try:
+       import mechanize
+
+except ImportError:
+        os.system('python2 -m pip install mechanize')
+
+
 import mechanize
 
 ##
